@@ -11,7 +11,7 @@ You need to link raylib. If raylib is already installed on your system you can r
 
 Or simply run:
 ```sh
-cc src/window.c -o drtem -W all -W extra -l raylib
+cc src/window.c -o drtem -lraylib
 ```
 
 ## Inspirations
