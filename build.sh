@@ -1,1 +1,3 @@
-cc src/window.c -o drterm -g gdb -W all -W extra -l raylib
+#! /bin/sh
+
+cc src/window.c -o drtem -ggdb -Wall -Wextra -lraylib
